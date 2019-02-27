@@ -1,118 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>Cirino Soares</title>
+    <title>Cirino Soares</title>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-  <!-- Estilos Complementares-->
-  <style>
-    .carousel-inner img {
-        width: 100%;
-        height: 600px;
-    }
-  </style>
-</head>
+    <!-- Estilos Complementares-->
+    <style>
+      .carousel-inner img {
+          width: 100%;
+          height: 600px;
+      }
+    </style>
+  </head>
 
-<body>
-  <!-- MENU -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand mr-auto" href="#">Portfólio</a>
-    <ul class="navbar-nav">
-      <li class="navbar-item">
-        <a class="nav-link" href="#trabalho">Trabalhos</a>
-      </li>
-      <li class="navbar-item">
-        <a class="nav-link" href="#">Contato</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!--  Header  -->
-  <div class="jumbotron jumbotron-fluid text-center bg-light border-top">
-    <img src="https://1.bp.blogspot.com/-oA_KjAJY2ZA/UcIKX0nPsdI/AAAAAAAAARY/RQNdhhvUQug/s1600/capacete.png" alt="Python-logo" width="120">
-    <h3>Meu Portfólio</h3>
-    <p class="text-muted">Cirino Soares</p>
-  </div>
-
-  <div id="demo" class="carousel slide" data-ride="carousel">
-
-    <!-- Indicadores -->
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-  
-    <!-- Slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/batman_slide.jpg" alt="Adventure Time">
+  <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">Portfólio</a>
+      <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="#collapsibleNavbar">
+        <ul class="nav navbar-nav ml-md-auto">
+          <li class="navbar-item">
+            <a class="nav-link" href="#trabalho">Trabalhos</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
       </div>
-      <div class="carousel-item">
-        <img src="img/alucard1_slide.jpg" alt="Batman">
-      </div>
-      <div class="carousel-item">
-        <img src="img/AdventureTime_slide.jpg" alt="Alucard">
-      </div>
+    </nav>
+
+    <!--  Header  -->
+    <div class="jumbotron jumbotron-fluid text-center bg-light border-top pt-5">
+      <img src="https://1.bp.blogspot.com/-oA_KjAJY2ZA/UcIKX0nPsdI/AAAAAAAAARY/RQNdhhvUQug/s1600/capacete.png" alt="Python-logo" width="120">
+      <h3>Em construção</h3>
+      <p class="text-muted">Cirino Soares</p>
     </div>
-  
-    <!-- Controles esquerda/direita -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
 
-  <!-- Cartões -->
-  <div class="container-fluid mt-5" id="trabalho">
-    <h2>Lista de ilustrações</h2>
-    <p>Reunião de alguns trabalhos realizados</p>
-    <div class="row">
-      <div class="card col-sm-4" style="width:400px">
-        <img class="card-img-top ml-2" src="img/Spiderverse-WanderingSpider_card.jpg" alt="Card image" style="width:95%; height: 200px">
-        <div class="card-body">
-          <h4 class="card-title">Spiderverse</h4>
-          <p class="card-text">Descrever como o desenho foi feito, que materiais e ferramentas digitais foram utilizadas.</p>
-          <a href="img/Spiderverse-WanderingSpider2-1.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicadores -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- Slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/batman_slide.jpg" alt="Adventure Time">
+        </div>
+        <div class="carousel-item">
+          <img src="img/alucard1_slide.jpg" alt="Batman">
+        </div>
+        <div class="carousel-item">
+          <img src="img/AdventureTime_slide.jpg" alt="Alucard">
         </div>
       </div>
-      <div class="card col-sm-4" style="width:400px">
-        <img class="card-img-top ml-2" src="img/batman_slide.jpg" alt="Card image" style="width:95%; height: 200px">
-        <div class="card-body">
-          <h4 class="card-title">Batman</h4>
-          <p class="card-text">Descrever como o desenho foi feito, que materiais e ferramentas digitais foram utilizadas.</p>
-          <a href="img/TheBatman1.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+    
+      <!-- Controles esquerda/direita -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!-- Cartões -->
+    <div class="container-fluid mt-5" id="trabalho">
+      <h2>Lista de ilustrações</h2>
+      <p>Reunião de alguns trabalhos realizados</p>
+      <div class="row">
+        <div class="card col-sm-4" style="width:400px">
+          <img class="card-img-top ml-2" src="img/Spiderverse-WanderingSpider_card.jpg" alt="Card image" style="width:95%; height: 200px">
+          <div class="card-body">
+            <h4 class="card-title">>The Wandering-Spider</h4>
+            <p class="card-text">The Wandering Spider é um personagem criado para a hashtag "Spidersona". Feito com Clip Studio Paint.</p>
+            <a href="img/Spiderverse-WanderingSpider2-1.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+          </div>
         </div>
-      </div>
-      <div class="card col-sm-4" style="width:400px">
-        <img class="card-img-top ml-2" src="img/AdventureTime_slide.jpg" alt="Card image" style="width:95%; height: 200px;">
-        <div class="card-body">
-          <h4 class="card-title">The Adventure Time</h4>
-          <p class="card-text">Descrever como o desenho foi feito, que materiais e ferramentas digitais foram utilizadas.</p>
-          <a href="img/AdventureTime.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+        <div class="card col-sm-4" style="width:400px">
+          <img class="card-img-top ml-2" src="img/batman_slide.jpg" alt="Card image" style="width:95%; height: 200px">
+          <div class="card-body">
+            <h4 class="card-title">Batman</h4>
+            <p class="card-text">Feito no Medibang</p>
+            <a href="img/TheBatman1.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+          </div>
+        </div>
+        <div class="card col-sm-4" style="width:400px">
+          <img class="card-img-top ml-2" src="img/AdventureTime_slide.jpg" alt="Card image" style="width:95%; height: 200px;">
+          <div class="card-body">
+            <h4 class="card-title">The Adventure Time</h4>
+            <p class="card-text">Essa ilustração de Hora de Aventura foi feita para comemorar o Valentine's Day (dia dos namorados). Feito  Medibang</p>
+            <a href="img/AdventureTime.jpg" class="btn btn-primary stretched-link">Ver Original</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-  <!-- Rodapé -->
-  <footer class="footer mt-3 py-3 bg-light">
-    <div class="container text-center">
-      <span class="text-muted">&copy Todos os direitos reservados.</span>
-    </div>
-  </footer>
-</body>
+    <!-- Rodapé -->
+    <footer class="footer mt-3 py-3 bg-light">
+      <div class="container text-center">
+        <span class="text-muted">&copy Todos os direitos reservados.</span>
+      </div>
+    </footer>
+  </body>
 </html>
